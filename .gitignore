@@ -1,0 +1,16 @@
+# Logs
+log/
+*.log
+*.log.*
+
+# Server configs with sensitive data
+keys/
+*.pem
+
+# Temp files
+.tailscale_state/
+.migrations
+
+# OS files
+.DS_Store
+Thumbs.db
